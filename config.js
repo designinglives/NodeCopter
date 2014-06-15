@@ -23,10 +23,5 @@ var config = {
             path: "/tmp/2013-06-03_09-10-33/"
         }
 };
- 
-config.twilio = {};
-config.twilio.authToken = '7a7156236608b0b58d6ed4652c57e073';
-config.twilio.messagingUrl = 'https://drone.ngrok.com/vote/sms';
-config.twilio.disableSigCheck = false;
 
 module.exports = config;
